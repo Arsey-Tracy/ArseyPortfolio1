@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arsey Portifolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <button class="header__menu-btn" id="menu-icon-btn" aria-label="Toggle menu">
+            <span class="header__menu-icon">&#9776;</span>
+        </button>
+        <h1>Arsey</h1>
+        <nav class="navigation" id="nav-drawer">
+            <button class="nav__close-btn" id="close-btn">&times;</button>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#hero" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+     <section class="hero__section" id="hero">
+        <div class="hero__image">
+            <img src="/assets/images/arsey.jpg" alt="Arsey - Software Developer">
+        </div>
+        <div class="hero__content">
+            <h2 class="hero__title">About Me</h2>
+            <p class="hero__text">
+                Hi there, <br>
+                I'm Mugaba Ashiraf, a self-Taught Software Engineer, Creative Writer, Web Developer; With now 4 years of experience. I specialize in web technologies, design and development. 
+                I speak Python as my primary language. I'm also an adaptive Developer able to learn and work with different 
+                technologies, frameworks and also multilingual in programming languages.
+            </p>
+        </div>
+    </section>    
+    <section class="skills__section" id="skills">
+        <h2 class="skills_section_title">My Skills</h2>
+        <div class="skills__grid">
+            <div class="skill-card">
+                <img src="/assets/icons/icons8-html5-48.png" alt="html5">
+                <h3 class="skill-card__title">HTML5</h3>
+                <div class="skill-card__bar">
+                    <div class="skill-card__level" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/icons/icons8-css3-48.png" alt="css3">
+                <h3 class="skill-card__title">CSS3</h3>
+                <div class="skill-card__bar">
+                    <div class="skill-card__level" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/icons/icons8-javascript-48.png" alt="javascript">
+                <h3 class="skill-card__title">JavaScript</h3>
+                <div class="skill-card__bar">
+                    <div class="skill-card__level" style="width: 70%"></div>
+                </div>
+            </div><div class="skill-card">
+                <img src="/assets/icons/icons8-python-48.png" alt="python">
+                <h3 class="skill-card__title">Python</h3>
+                <div class="skill-card__bar">
+                    <div class="skill-card__level" style="width: 95%"></div>
+                </div>
+            </div><div class="skill-card">
+                <img src="/assets/icons/icons8-django-48.png" alt="Django">
+                <h3 class="skill-card__title">Django</h3>
+                <div class="skill-card__bar">
+                    <div class="skill-card__level" style="width: 80%"></div>
+                </div>
+            </div><div class="skill-card">
+                <img src="/assets/icons/icons8-flask-64.png" alt="flask">
+                <h3 class="skill-card__title">Flask</h3>
+                <div class="skill-card__bar">
+                    <div class="skill-card__level" style="width: 70%"></div>
+                </div>
+            </div><div class="skill-card">
+                <img src="/assets/icons/icons8-git-48.png" alt="git">
+                <h3 class="skill-card__title">Git</h3>
+                <div class="skill-card__bar">
+                    <div class="skill-card__level" style="width: 78%"></div>
+                </div>
+            </div><div class="skill-card">
+                <img src="/assets/icons/icons8-github-48.png" alt="github">
+                <h3 class="skill-card__title">GitHub</h3>
+                <div class="skill-card__bar">
+                    <div class="skill-card__level" style="width: 67%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/icons/icons8-react-40.png" alt="javascript">
+                <h3 class="skill-card__title">React</h3>
+                <div class="skill-card__bar">
+                    <div class="skill-card__level" style="width: 50%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/icons/icons8-angularjs-48.png" alt="javascript">
+                <h3 class="skill-card__title">Angular</h3>
+                <div class="skill-card__bar">
+                    <div class="skill-card__level" style="width: 40%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/icons/icons8-google-48.png" alt="javascript">
+                <h3 class="skill-card__title">Google</h3>
+                <div class="skill-card__bar">
+                    <div class="skill-card__level" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <img src="/assets/icons/icons8-chatgpt-50.png" alt="javascript">
+                <h3 class="skill-card__title">ChatGPT</h3>
+                <div class="skill-card__bar">
+                    <div class="skill-card__level" style="width: 90%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects__section" id="portfolio">
+        <h2 class="projects__title">My Portfolio</h2>
+        <div class="projects__grid">
+            <div class="project-card">
+                <img src="/assets/images/test.jpg" alt="Project" class="project-card__image">
+                <div class="project-card__content">
+                    <h3 class="project-card__title">Project Name</h3>
+                    <p class="project-card__description">Project description goes here...</p>
+                    <a href="#" class="project-card__link">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="/assets/images/test.jpg" alt="Project" class="project-card__image">
+                <div class="project-card__content">
+                    <h3 class="project-card__title">Project Name</h3>
+                    <p class="project-card__description">Project description goes here...</p>
+                    <a href="#" class="project-card__link">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="/assets/images/test.jpg" alt="Project" class="project-card__image">
+                <div class="project-card__content">
+                    <h3 class="project-card__title">Project Name</h3>
+                    <p class="project-card__description">Project description goes here...</p>
+                    <a href="#" class="project-card__link">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="/assets/images/test.jpg" alt="Project" class="project-card__image">
+                <div class="project-card__content">
+                    <h3 class="project-card__title">Project Name</h3>
+                    <p class="project-card__description">Project description goes here...</p>
+                    <a href="#" class="project-card__link">View Project</a>
+                </div>
+            </div><div class="project-card">
+                <img src="/assets/images/test.jpg" alt="Project" class="project-card__image">
+                <div class="project-card__content">
+                    <h3 class="project-card__title">Project Name</h3>
+                    <p class="project-card__description">Project description goes here...</p>
+                    <a href="#" class="project-card__link">View Project</a>
+                </div>
+            </div><div class="project-card">
+                <img src="/assets/images/test.jpg" alt="Project" class="project-card__image">
+                <div class="project-card__content">
+                    <h3 class="project-card__title">Project Name</h3>
+                    <p class="project-card__description">Project description goes here...</p>
+                    <a href="#" class="project-card__link">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services__section" id="services">
+        <h2 class="services__title">Services Offered</h2>
+        <div class="services__container">
+            <div class="service-card">
+                <strong class="icon">📱</strong>
+                <h3 class="service__title">Mobile App Development</h3>
+                <p class="service__description">
+                    I Create mobile applications with focus on user experience and perfomance,
+                    using technologies like flutter or react native for cross platform or
+                    java/kotlin for native Development.
+                </p>
+            </div>
+            <div class="service-card">
+                <strong class="icon">🌐</strong>
+                <h3 class="service__title">Web App Development</h3>
+                <p class="service__description">
+                    I Build websites and web applications with focus on user experience and perfomance,
+                    using technologies like react, angular or django and flask i can build seo friendly websites.
+                </p>
+            </div>
+            <div class="service-card">
+                <strong class="icon">🎨</strong>
+                <h3 class="service__title">UI/UX Design</h3>
+                <p class="service__description">
+                    I Design intuitive and aesthetically pleasing user intefaces with a focus on user experience.
+                </p>
+            </div>
+            <div class="service-card">
+                <strong class="icon">🔍</strong>
+                <h3 class="service__title">SEO Optimization</h3>
+                <p class="service__description">
+                    I Optimize websites to rank higher in search engine results, increasing
+                    visibility and traffic.
+                </p>
+            </div>
+            <div class="service-card">
+                <strong class="icon">🔍</strong>
+                <h3 class="service__title">Content creation</h3>
+                <p class="service__description">
+                    I Optimize websites to rank higher in search engine results, increasing
+                    visibility and traffic.
+                </p>
+            </div>
+            <div class="service-card">
+                <strong class="icon">🔍</strong>
+                <h3 class="service__title">API intergration and development</h3>
+                <p class="service__description">
+                    I Optimize websites to rank higher in search engine results, increasing
+                    visibility and traffic.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="contact__section" id="contact">
+        <h2 class="contact__title">Contact Me</h2>
+        <div class="contact__container">
+            <div class="contact__info">
+                <p><strong>Email:</strong> <a href="mailto:hanmas669@gmail.com">hanmas669@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+256707522509">+256707522509</a></p>
+                <p><strong>Address:</strong>123 Street, Kampala, Uganda.</p>
+            </div>
+            <form  id="contact-form" class="form" method="post">
+                <div class="form__group">
+                    <label for="name" class="form__label">Name:</label>
+                    <input class="form__input" autocomplete="name" type="text" name="name" id="name" placeholder="Enter your name...." required>
+                </div>
+                <div class="form__group">
+                    <label for="email" class="form__label">Email:</label>
+                    <input class="form__input" autocomplete="email" type="email" name="email" id="email"  placeholder="Enter your email...." required>
+                </div><div class="form__group">
+                    <label for="message" class="form__label">Message:</label>
+                    <textarea name="message" id="message" class="form__textarea" required></textarea>
+                </div>
+                <button type="submit" class="form__submit">Send Message</button>
+            </form>
+        </div>
+        <div class="social-icons">
+            <a href="#" aria-label="FaceBook"> <img src="/assets/icons/icons8-facebook-48.png" alt="face-book-logo"></a>
+            <a href="#" aria-label="FaceBook"> <img src="/assets/icons/icons8-linkedin-48.png" alt="face-book-logo"></a>
+            <a href="#" aria-label="FaceBook"> <img src="/assets/icons/icons8-github-48.png" alt="face-book-logo"></a>
+            <a href="#" aria-label="FaceBook"> <img src="/assets/icons/icons8-twitter-50.png" alt="face-book-logo"></a>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__text">&copy; 2024 Arsey Kun Python Dev. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
