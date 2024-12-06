@@ -115,7 +115,6 @@ body {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    /* clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%); */
 }
 
 .hero__image img {
@@ -127,6 +126,8 @@ body {
 
 .hero__content {
     padding: 2rem;
+    border-radius: 10px;
+    border: 1px solid var(--secondary);
 }
 
 .hero__title {
