@@ -20,14 +20,13 @@ html{
 }
 
 body {
-    max-width: fit-content;
+    max-width: 100%;
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: var(--dark);
     background: linear-gradient(135deg, var(--lighter) 0%, var(--white) 100%);
 }
 .header {
-    width: 100%;
     position: sticky;
     top: 0;
     left: 0;
