@@ -19,19 +19,15 @@ html{
     scroll-behavior: smooth;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
+    max-width: fit-content;
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: var(--dark);
     background: linear-gradient(135deg, var(--lighter) 0%, var(--white) 100%);
 }
 .header {
+    width: 100%;
     position: sticky;
     top: 0;
     left: 0;
@@ -118,14 +114,14 @@ body {
 }
 
 .hero__image img {
-    width: 400px;
+    object-fit: cover;
     border-radius: 20px;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(132, 94, 194, 0.2);
 }
 
 .hero__content {
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 10px;
     border: 1px solid var(--secondary);
 }
